@@ -1,0 +1,20 @@
+CS6 Práctica individual obligatoria: Cheatsheet.
+
+git init = se inicia el repositorio local (se agrega una carpeta .git).
+git add = agregar un archivo/carpeta en particular.
+git add . = agregar todos los archivos. 
+git commit -m = creación y nombramiento de un commit (comitear)
+git status = realiza un seguimiento de los estados de los archivos
+git remote add + URL = conecta el repositorio local con el remoto.
+git remote -v = indica con que repositorio remoto, esta sincronizado el repositorio local.
+git push -u = envia los archivos desde el repositorio local al remoto por primera vez.
+git push origin main = sube los archivos al repositorio main.
+git clone + URL = crea una copia del repositorio remoto en nuestro computador (repositorio local)
+git pull origin branch = descarga y actualiza los archivos que están desde el repositorio remoto al local. 
+git branch = enumera las ramas del repositorio. 
+git branch <branch> = crea una nueva rama y la nombra.
+git branch -d <branch> = elimina una rama en específico.
+git branch -D <branch> = fuerza la eliminzación de una rama en específico.
+git checkout <nombre_branch> = para moverde de una rama a otra.
+git merge = sube los commits una rama secundaria a la rama main.
+git branch -M main = este comando renombra la rama master a main. 
