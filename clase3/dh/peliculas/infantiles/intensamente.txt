@@ -1,0 +1,41 @@
+RESUMEN COMANDOS
+
+¿Se pueden crear las carpetas del punto 2 en un solo comando? En caso que la respuesta sea positiva escribir el comando
+mkdir dh dh/peliculas dh/peliculas/accion dh/peliculas/comedia dh/peliculas/infantiles dh/peliculas/romanticas dh/peliculas/terror
+
+¿Se pueden crear los archivos del punto 3 en un solo comando? En caso que la respuesta sea positiva escribir el comando
+$ cd peliculas/infantiles
+$ touch intenzamente.txt el_juego_del_miedo.xls rapido_y_furioso.pdf titanic.jpg
+
+Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de la carpeta Romanticas en un solo comando y escribirlo aquí
+$ mkdir peliculas/romanticas/prueba
+
+Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2 dentro de la carpeta Accion
+$ mkdir ../accion/prueba2
+
+2.Mover los archivos que no correspondan a la carpeta con la categoría de película correspondiente. (desde peliculas)
+mv infantiles/el_juego_del_miedo.xls terror/
+
+3.Estando ubicados en la carpeta DH renombrar los archivos que están mal nombrados debido a faltas ortográficas.
+mv peliculas/accion/el_hexorcista.xls peliculas/accion/el_exorcista.xls
+
+4.Estando ubicados en la carpeta DH remover (eliminar) los archivos que no sean peliculas y corresponden a canciones en un solo comando c/u.
+rm peliculas/terror/we_will_rock_you.js
+
+5.Ubicados en la carpeta DH crear el archivo noBorrar.js en la carpeta prueba2. En un solo comando.
+touch peliculas/accion/prueba2/noBorrar.js
+
+6.Ubicados en la carpeta peliculas mover el archivo noBorrar.js de la carpeta prueba2 a la carpeta prueba. En un solo comando.
+mv accion/prueba2/noBorrar.js romanticas/prueba
+
+7.Ubicados en la carpeta DH crear un archivo llamado camadax.txt
+touch camadax.txt
+
+8.Ubicados en la carpeta peliculas, mover el archivo IT a la carpeta infantiles. En un solo comando.
+mv terror/it.xls infantiles/
+
+9.Ubicados en la carpeta peliculas eliminar el archivo camadax.txt
+rm ../camadax.txt
+
+10.Ubicados en la carpeta peliculas eliminar la carpeta prueba. En un solo comando.
+rm -r romanticas/prueba/
