@@ -1,0 +1,5 @@
+a. En abril del 2005 Linus Torvalds, el padre del sistema operativo Linux, diseñó un motor de control y versionador de código llamado Git con el propósito de tener un sistema descentralizado que le permitiera trabajar de la forma que las herramientas del momento no le permitían.
+
+b. El 4 de junio de 2018, Microsoft compró GitHub por la cantidad de 7500 millones de dólares.​​ Al inicio, el cambio de propietario generó preocupaciones y la salida de algunos proyectos de este sitio;​ sin embargo, no fueron representativos.
+
+c. Efectivamente podemos acceder a GitHub directamente en su sitio web y trabajar con esta plataforma GIT en modalidad SaaS (Software as a Service).
