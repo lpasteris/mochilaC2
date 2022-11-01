@@ -1,0 +1,25 @@
+
+
+git init: Crea repositorio local
+
+git add _____: Agrega archivo al repositorio local
+git add .: Agrega todos los archivos al repositorio local
+git config user.name ____: agrega nombre del usuario al repositorio local
+git config user.email ____: agrega correo del usuario al repositorio local
+git branch -m "Nuevo Nombre": Cambia el nombre del branch del repositorio
+git commit -m "Commentario": 
+
+Asignar repositorio remoto al repositorio local
+git remote add origin https://github.com/pcmarcano/pcmarcano.git: agrega el repositorio remoto al repositorio local
+git remote -v: Revisa el estado del repositorio local en relacion al remoto?
+
+Sube Archivos al repositorio remoto
+git push origin master: sube los archivos al repositorio remoto en el branch master
+
+Clonar repositorio  remoto (solo se hace una vez)
+git clone https://github.com/Usuario/repo.git
+
+
+Baja y/o actualiza Archivos al repositorio local
+git pull origin main
+
