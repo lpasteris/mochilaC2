@@ -1,0 +1,94 @@
+https://drive.google.com/drive/folders/1N8RNJw4s0xgrWU54MaKFgXNKZcJaRGlB
+
+1 Consigna
+
+# 1 Crear en tu carpeta de DH el directorio Películas
+mkdir Peliculas 
+
+# 2 Crear en tu carpeta Peliculas cinco directorios llamados: Infantiles Accion Terror Comedia Romanticas
+mkdir Peliculas/Infantiles Peliculas/Accion Peliculas/Terror Peliculas/Comedia Peliculas/Romanticas
+
+# 3 Crear en la carpeta Infantiles cuatro archivos llamados: Intenzamente.txt  El juego del miedo.xls Rapido y furioso.pdf Titanic.jpg
+touch Peliculas/Infantiles/Intenzamente.txt 'Peliculas/Infantiles/El juego del miedo.xls' 'Peliculas/Infantiles/Rapido y furioso.pdf' Peliculas/Infantiles/Titanic.jpg
+
+# 4 Crear en la carpeta Accion cuatro archivos llamados: Smooth criminal.txt Diario de una pasion.js El hexorcista.xls  Cars.jpg
+touch 'Peliculas/Accion/Smooth criminal.txt' 'Peliculas/Accion/Diario de una pasion.js' 'Peliculas/Accion/El hexorcista.xls' Peliculas/Accion/Cars.jpg
+
+# 5 Crear en la carpeta Terror cuatro archivos llamados: La dama y el bagavundo.png Yo antes de ti.xls Que paso ayer.pdf We will rock you.js
+touch 'Peliculas/Terror/La dama y el bagavundo.png' 'Peliculas/Terror/Yo antes de ti.xls' 'Peliculas/Terror/Que paso ayer.pdf' 'Peliculas/Terror/We will rock you.js'
+
+# 6 Crear en la carpeta Comedia cuatro archivos llamados: Madagaskar.js Orgullo y prejuicio.txt  IT.xls Mision imposible.png
+touch Peliculas/Comedia/Malagascar.js 'Peliculas/Comedia/Orgullo y prejuicio.txt' Peliculas/Comedia/IT.xls 'Peliculas/Comedia/Mision imposible.png'
+
+# 7 Crear en la carpeta Romantica cuatro archivos llamados: Pocahontas.jpg Annabelle.js Los vengadores.js La mascara.js
+touch Peliculas/Romanticas/Pocahontas.jpg Peliculas/Romanticas/Annabelle.js 'Peliculas/Romanticas/Los vengadores.js' 'Peliculas/Romanticas/La mascara.js'
+
+# 8 Una vez realizada la actividad deberemos corroborar el resultado obtenido, ubicándonos en la carpeta peliculas y utilizando el comando: ls -R
+ls -R
+
+# 9.1
+# mkdir
+
+# 9.2
+# touch
+
+# 9.3
+mkdir Peliculas/Romanticas/Prueba
+
+# 9.4
+mkdir /home/noctilucent/Documents/DH/Peliculas/Accion/Prueba2
+
+
+2 Trabajando con VS Code
+
+# 1 Abriremos el VSCode y abriremos una nueva terminal con Git Bash dentro del mismo (Ver guía de instalación de Git Bash).
+
+
+# 2 Mover los archivos que no correspondan a la carpeta con la categoría de película correspondiente.
+mv ./Peliculas/Accion/Cars.jpg ./Peliculas/Infantiles/Cars.jpg
+mv "./Peliculas/Accion/Diario de una pasion.js" "./Peliculas/Romanticas/Diario de una pasion.js"
+mv "./Peliculas/Accion/El hexorcista.xls" "./Peliculas/Terror/El hexorcista.xls"
+mv "./Peliculas/Comedia/IT.xls" "./Peliculas/Terror/IT.xls"
+mv "./Peliculas/Comedia/Malagascar.js" "./Peliculas/Infantiles/Malagascar.js"
+mv "./Peliculas/Comedia/Mision imposible.png" "./Peliculas/Accion/Mision imposible.png"
+mv "./Peliculas/Comedia/Orgullo y prejuicio.txt" "./Peliculas/Romanticas/Orgullo ny prejuicio.txt"
+mv "./Peliculas/Infantiles/El juego del miedo.xls" "./Peliculas/Terror/El juego del miedo.xls"
+mv "./Peliculas/Infantiles/Rapido y furioso.pdf" "./Peliculas/Accion/Rapido y furioso.pdf"
+mv "./Peliculas/Romanticas/Annabelle.js" "./Peliculas/Terror/Annabelle.js"
+mv "./Peliculas/Romanticas/La mascara.js" "./Peliculas/Comedia/La mascara.js"
+mv "./Peliculas/Romanticas/Los vengadores.js" "./Peliculas/Accion/Los vengadores.js"
+mv "./Peliculas/Romanticas/Pocahontas.jpg" "./Peliculas/Infantiles/Pocahontas.jpg"
+mv "./Peliculas/Terror/La dama y el bagavundo.png" "./Peliculas/Infantiles/La dama y el bagavundo.png"
+mv "./Peliculas/Terror/Que paso ayer.pdf" "./Peliculas/Comedia/Que paso ayer.pdf"
+mv "./Peliculas/Terror/We will rock you.js" "./Peliculas/Romanticas/We will rock you.js"
+mv "./Peliculas/Terror/Yo antes de ti.xls" "./Peliculas/Romanticas/Yo antes de ti.xls"
+
+# 3 Estando ubicados en la carpeta DH renombrar los archivos que están mal nombrados debido a faltas ortográficas.
+mv "./Peliculas/Infantiles/La dama y el bagavundo.png" "./Peliculas/Infantiles/La dama y el vagabundo.png"
+
+# 4 Estando ubicados en la carpeta DH remover (eliminar) los archivos que no sean peliculas y corresponden a canciones en un solo comando c/u.
+rm "./Peliculas/Accion/Smooth criminal.txt"
+
+# 5 Ubicados en la carpeta DH crear el archivo noBorrar.js en la carpeta prueba2. En un solo comando.
+touch ./Peliculas/Accion/Prueba2/noBorrar.js
+
+# 6 Ubicados en la carpeta peliculas mover el archivo noBorrar.js de la carpeta prueba2 a la carpeta prueba. En un solo comando.
+cd Peliculas
+mv ./Accion/Prueba2/noBorrar.js ./Romanticas/Prueba/noBorrar.js
+
+# 7 Ubicados en la carpeta DH crear un archivo llamado camadax.txt
+cd ..
+touch camadax.txt
+
+# 8 Ubicados en la carpeta peliculas, mover el archivo IT a la carpeta infantiles. En un solo comando.
+cd Peliculas
+[noctilucent@fedora Peliculas]$ mv ./Terror/IT.xls ./Infantiles/IT.xls
+
+# 9 Ubicados en la carpeta peliculas eliminar el archivo camadax.txt
+
+
+# 10 Ubicados en la carpeta peliculas eliminar la carpeta prueba. En un solo comando.
+rm -r ./Romanticas/Prueba
+
+
+
