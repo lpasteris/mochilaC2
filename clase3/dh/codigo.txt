@@ -1,0 +1,102 @@
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/
+$ mkdir dh
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ mkdir peliculas peliculas/infantiles peliculas/accion peliculas/terror peliculas/comedia peliculas/romanticas
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ touch peliculas/infantiles/Intenzamente.txt peliculas/infantiles/El_juego_del_miedo.txt peliculas/infantiles/Rapido_y_Furioso.txt peliculas/infantiles/Titanic.txt
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ touch peliculas/accion/Smooth_criminal.txt peliculas/accion/Diario_de_una_pasion.txt peliculas/accion/El_hexorcista.txt peliculas/accion/Cars.txt
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ touch peliculas/Terror/La_dama_y_el_bagavundo.txt peliculas/Terror/Yo_antes_de_ti.txt peliculas/Terror/Que_paso_ayer.txt peliculas/Terror/We_will_rock_you.txt
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ touch peliculas/comedia/Madagaskar.txt peliculas/comedia/Orgullo_y_prejuicio.txt peliculas/comedia/IT.txt peliculas/comedia/Mision_imposible.txt
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ touch peliculas/romanticas/Pocahontas.txt peliculas/romanticas/Annabelle.txt peliculas/romanticas/Los_vengadores.txt peliculas/romanticas/Las_mascara.txt
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ cd peliculas
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh/peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+Cars.txt  Diario_de_una_pasion.txt  El_hexorcista.txt  Smooth_criminal.txt
+
+./comedia:
+IT.txt  Madagaskar.txt  Mision_imposible.txt  Orgullo_y_prejuicio.txt
+
+./infantiles:
+El_juego_del_miedo.txt  Intenzamente.txt  Rapido_y_Furioso.txt  Titanic.txt
+
+./romanticas:
+Annabelle.txt  Las_mascara.txt  Los_vengadores.txt  Pocahontas.txt
+
+./terror:
+La_dama_y_el_bagavundo.txt  Que_paso_ayer.txt  We_will_rock_you.txt  Yo_antes_de_ti.txt
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh/peliculas
+$ cd ..
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ mkdir peliculas/romanticas/prueba
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ cd peliculas/romanticas
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh/peliculas/romanticas
+$ mkdir ../accion/prueba2
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ rm peliculas/accion/smooth_criminal.txt peliculas/comedia/we_will_rock_you.txt
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ touch peliculas/accion/noBorrar.js
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ rm peliculas/accion/noBorrar.js
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ rm peliculas/accion/prueba2/noBorrar.js
+rm: cannot remove 'peliculas/accion/prueba2/noBorrar.js': No such file or directory
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ touch peliculas/accion/prueba2/noBorrar.js
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ cd peliculas
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh/peliculas
+$ mv accion/prueba2/noBorrar.js romanticas/prueba/noBorrar.js
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh/peliculas
+$ cd..
+bash: cd..: command not found
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh/peliculas
+$ cd ..
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ touch camada2.txt
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh
+$ cd peliculas
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh/peliculas
+$ mv terror/IT.txt infantiles/IT.txt
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh/peliculas
+$ rm camada2.txt
+rm: cannot remove 'camada2.txt': No such file or directory
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh/peliculas
+$ rm ../camada2.txt
+
+juand@DESKTOP-QGTBSOV MINGW64 ~/Desktop/dh/peliculas
+$ rm -r romanticas/prueba
