@@ -1,0 +1,52 @@
+git init //para iniciar el seguimiento de git dentro de un repositorio
+git add . //para agregar todos los archivos modificados de golpe
+git add <nombre del archivos> //para agregar 1 archivo en especifico que hallamos modificado
+git commit -m "aqui va el mensaje"//para dejar listo para subir a la nube las modificaciones realizadas junto con un mensaje de lo que hicimos
+git push // para empujar hacia la nube nuestros archivos
+git pull //para traernos la ultima version del repositorio desde la nube
+git checkout main //para volver a la rama main
+git checkout -b //<nombre de la rama> para generar una rama nueva y movernos a ella
+git reset --hard HEAD~1 //en caso de que allamos cambiado algo queramos volver a la rama main sin guardar nada 
+
+
+
+Les dejo unos comando de ayuda para usar Git.
+
+* Comando básicos de Git
+  ----------------------
+Crear un nuevo branch para trabajar sobre un tarea:
+Lo que suelo usar yo a diario es lo siguiente:
+1- git checkout master
+2- git pull
+3- git ckeckout -b [nombre-rama]
+Una vez dentro de la rama creada voy a trabajar en mi editor de código preferido y una vez que tenga los cambios realizados hago:
+1- git add [nombre-archivo]  (esto se puede repetir segun la cantidad de archivos que se deseen pushear)
+2- git commit -m '[mensaje-commit]'
+3- git push origin [nombre-rama]
+
+* Modificar archivos después de recibir comentarios en el PR
+  ----------------------------------------------------------
+Luego de esto van a crear un Pull Request (PR) en Github y van a obtener comentarios sobre cosas a modificar en el código de su PR. Cuando quieran modificar algo en su PR se cambian a esa rama del PR y empiezan a trabajar en su editor preferido con lo siguiente:
+1- git checkout [nombre-rama-pr]
+Por cada modificación que hagan, en nuestro caso particular les pido mantener un solo commit por rama y vayan agregando los cambios a ese único commit con lo siguiente:
+1- git add [nombre-archivo-modificado]
+2- git commit --amend --no-edit  (--amend sirve para "enmendar" el último commit y --no-edit para no editar el mensaje de commit)
+3- git push origin [nombre-rama-pr] --force-with-lease
+
+* Solución de conflictos de archivos
+  ----------------------------------
+Es importante siempre tratar de tener actualizada nuestra rama con respecto a cambios que suceden en el branch master de Github, esto ayuda que al momento de hacer el merge nos hayan conflictos de archivos y todo sea más ágil.
+Para ello todos los días antes de comenzar a trabajar en el proyecto, hacemos:
+1- git checkout master
+2- git pull
+3- git checkout [nombre-rama-donde-estabamos-trabajando]
+En este punto estamos parados sobre la rama en la cuál estábamos trabajando, ahora hacemos:
+1- git rebase master
+En este punto git nos puede solicitar solucionar conflictos entre archivos , con lo cual debemos ir al editor de código y solucionarlos archivo por archivo. como ejemplo la secuencia sería:
+1- soluciono los conflictos en el archivo ejemplo_controller.rb
+2- un ves solucionados los conflictos en la terminal ejecuto git add ejemplo_controller.rb
+
+
+Estos pasos los voy a repetir hasta que no queden archivos con conflictos. Una vez finalizado este punto hago lo siguiente:
+1- git rebase --continue
+De acá en adelante hay otros comandos para aprender, pero les sugiero empezar por estos.
