@@ -1,0 +1,10 @@
+a- ¿quien inventó el sistema de control de version de git y porque?
+    R: la invento linus torvalds, Git es un sistema de control de versiones distribuido,
+    lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. 
+    Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad.
+
+b- ¿a quien pertenece actualmente github y porque?
+    R: actualmente microsoft es dueño de github, esta desicion fue para enfocarse todo lo posible al desarrollo.
+
+c- ¿Hay otra forma que no sea la terminal para trabajar con github?
+    R: si se pude trabajar directamente con el repositorio remoto en la pagina de github, haciendo commit directos desde la pagina.

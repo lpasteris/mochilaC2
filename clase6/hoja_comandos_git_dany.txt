@@ -1,0 +1,41 @@
+Hoja de Comandos
+* PARA SUBIR CAMBIOS
+- git add . // agrega todos los archivos
+- git commit .m "mensaje" // commitea los cambios hechos
+- git push -u origin main // envia los cambios al repositorio remoto
+- git status // realiza un seguimiento de los estados de los archivos
+- git pull // descarga los cambios que existen en el repositorio remoto
+
+* AYUDA
+ - git help // nos muestra una lista con comandos de git
+ - pwd // nos da la ruta en donde estamos posicionados
+ - ls // nos muestra una lista de los archivos y directorios de la ruta de posición
+ - ls -a // nos muestra una lista de archvios y directorios, incluso los ocultos
+ - ls -lah // nos muestra una lista de archvios y directorios, incluso los ocultos mas detalles de lectura humana
+ - clear // borra todoo el codigo de la terminal
+ - git branch // nos muestra las ramas disponibles
+
+* CREAR REPOSITORIOS, ARCHIVOS, RAMAS Y DIRECTORIOS
+ - mkdir // crea un directorio en la ruta de posicion
+ - touch // crea un archivo
+ - git init // crea o inicia un repositorio en el directorio de posición
+ - git branch "nombre" // crea una rama aparte de la principal
+ 
+* ACCIONES EN LA TERMINAL
+ - cd "nombre directorio" // nos cambia de directorio
+ - cd .. // sube un nivel dependiendo de la ruta de posición
+ - mv // mueve un archivo de posicion
+ - rm -r // elimina directorios
+ - rm // elimina archivos
+ - git checkout "nombre de rama" // nos cambia a una rama creada
+ - git branch -m "nombre" // cambia el nombre de la rama posicionada
+ - nano // editor de texto en terminal
+ 
+* CONFIGURACIÓN 
+ - git config user.name "nombre usuario" // configura el acceso de usuario a github
+ - git config user.email "correo usuario" // configura acceso de correo a github
+ - git log // realiza un seguimiento
+ - git remote add originv "https://"token@linkrepo.git" // configura el acceso a nuestro repositorio remoto
+ - nano .git/config // configuración interna token
+ 
+ 
