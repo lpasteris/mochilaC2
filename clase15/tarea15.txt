@@ -1,0 +1,47 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos 
+sistemas operativos y en otros no?.
+Porque un lenguaje de programación compila a lenguaje ensamblador el cual 
+es ejecutado por el sistema operativo, este lenguaje ensamblador depende 
+de 2 cosas, de la arquitectura del procesador y la interpretación que le 
+de el sistema operativo. Si en la computadora cambia la arquitectura del 
+procesador el lenguaje ensamblador es totalmente diferente y no va a 
+correr.
+
+
+
+¿Qué tipo de máquina virtual soporta virtualBox?.
+ Entre los sistemas operativos soportados (en modo anfitrión) se 
+encuentran GNU/Linux, Mac OS X, OS/2 Warp, Genode, Windows y 
+Solaris/OpenSolaris, y dentro de ellos es posible virtualizar los sistemas 
+operativos FreeBSD, GNU/Linux, OpenBSD, OS/2 Warp, Windows, Solaris, 
+MS-DOS, Genode y muchos otros. 
+
+¿Qué función cumple el hypervisor en la virtualización?
+
+El hipervisor es un software especial que le permite ejecutar una o varias 
+máquinas virtuales con sus propios sistemas operativos (sistemas 
+operativos huéspedes) en una computadora física, que se denomina máquina 
+host. Hay dos tipos de hipervisores: tipo 1 y tipo 2.
+Hyper-V es un hipervisor de tipo 1 que también se conoce como hipervisor 
+simple y se ejecuta directamente en el hardware de una computadora. Cuando 
+se inicia una computadora física (un host), un hipervisor Hyper-V toma el 
+control de BIOS o UEFI. Luego, Hyper-V inicia el sistema operativo de 
+administración, que puede ser Hyper-V Server, Windows o Windows Server. 
+Las máquinas virtuales pueden iniciarse manualmente por usuario o 
+automáticamente, según su configuración.
+VirtualBox es un hipervisor de tipo 2 que a veces se denomina hipervisor 
+alojado. Un hipervisor de tipo 2 es una aplicación que se ejecuta en el 
+sistema operativo (SO) y ya está instalada en un host. Cuando se inicia 
+una computadora física, el sistema operativo instalado en el host se carga 
+y toma el control. Un usuario inicia la aplicación del hipervisor 
+(VirtualBox en este caso) y luego inicia las máquinas virtuales 
+necesarias. Se crean procesos de VM huéspedes.
+
+
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto 
+afecta a las demás? ¿por qué?
+Las máquinas virtuales de procesos se ejecutan en un mismo servidor para 
+ejecutar varias instancias de la misma aplicación de forma separada. De 
+ese modo, si una de ellas falla, no afectará al funcionamiento del resto
+
