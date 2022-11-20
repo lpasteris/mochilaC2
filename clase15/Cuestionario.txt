@@ -1,0 +1,20 @@
+1. ¿Por que un lenguaje de programacion solo puede utilizarse en algunos sistemas operativos y en otros no? 
+R= Porque un lenguaje de programación compila a lenguaje ensamblador el cual es ejecutado por el sistema operativo,
+este lenguaje ensamblador depende de 2 cosas, de la arquitectura del procesador y la interpretación que le de el sistema operativo. 
+Si en la computadora cambia la arquitectura del procesador el lenguaje ensamblador es totalmente diferente y no va a correr.
+Ahora sí es la misma arquitectura de procesador y diferente sistema operativo, en ocasiones el sistema operativo cambia la definición 
+de la interrupción o el llamado de esta; por ejemplo en Windows para mostrar en pantalla usas la interrupción 21, 
+y en Linux es la 10, lo cual hace los ejecutables finales incompatibles entre sistemas operativos.
+
+2. ¿Que tipo de maquina virtual soporta virual box?
+R= Entre los sistemas operativos soportados (en modo anfitrión) se encuentran GNU/Linux, Mac OS X, OS/2 Warp,
+Genode,1​ Windows y Solaris/OpenSolaris, y dentro de ellos es posible virtualizar los sistemas operativos FreeBSD,
+GNU/Linux, OpenBSD, OS/2 Warp, Windows, Solaris, MS-DOS, Genode y muchos otros. 
+
+3. ¿Que funcion cumple el hipervisor en la virtualizacion?
+R= Un hipervisor permite que un ordenador host preste soporte a varias máquinas virtuales invitadas mediante el uso
+compartido virtual de sus recursos, como la memoria y el procesamiento.
+
+4.Si tengo mas de una maquina virtual instalada, y una se rompe, ¿esto afecta a las demas? ¿Por que?
+Las máquinas virtuales de procesos se ejecutan en un mismo servidor para ejecutar varias instancias de la misma aplicación 
+de forma separada. De ese modo, si una de ellas falla, no afectará al funcionamiento del resto. 
