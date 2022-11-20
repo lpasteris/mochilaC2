@@ -18,3 +18,5 @@ virtual de sus recursos, como la memoria y el procesamiento.
 En general, hay dos tipos de hipervisores. Los hipervisores de tipo 1, denominados «hipervisores bare metal»,
 se ejecutan directamente en el hardware del host. Los hipervisores de tipo 2, denominados «alojados», }
 se ejecutan como una capa de software sobre un sistema operativo, como otros programas informáticos.
+
+fin
