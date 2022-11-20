@@ -1,4 +1,8 @@
 preguntas
 
+<<<<<<< Updated upstream
 modificación en github
+=======
+modificación en gihub hoy
+>>>>>>> Stashed changes
 
