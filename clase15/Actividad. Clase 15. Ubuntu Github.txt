@@ -1,0 +1,18 @@
+Actividad Ubuntu + github clase 15
+
+1.¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?.
+
+Porque dependiendo del lenguaje de programación este puede ser compilado o interpretado por un tipo de sistema operativo en específico, que además solo funciona para una arquitectura de computador determinada. Por tanto, al variar la arquitectura o el sistema operativo, el lenguaje ya no será compatible y necesitará de otros recursos para que este pueda ser nuevamente interpretado o compilado según el caso. 
+
+2.¿Qué tipo de máquina virtual soporta virtualBox?.
+
+VirtualBox es una máquina virtual de tipo sistemas, es decir, es un software para virtualizar sistemas operativos dentro de un ordenador existente, estos software también son conocidos como hipervisor de tipo 2.
+
+3.¿Qué función cumple el hypervisor en la virtualización?
+
+Un hipervisor en la virtualización, es un proceso que crea y ejecuta máquinas virtuales, permitiendo que un ordenador host preste soporte a varias máquinas virtuales invitadas mediante el uso compartido virtual de recursos de hardware (memoria y procesamiento).
+
+4.Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+Las máquinas virtuales permiten el manejo y gestión de varios procesos o sistemas de forma simultánea y separada, por lo que si una de ellas falla, no afectará a la otra.
+
