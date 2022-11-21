@@ -1,0 +1,14 @@
+https://github.com/lpasteris/mochilaC2.git
+
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?.
+	Hay lenguajes que estan hechos para funcionar especificamente 
+
+¿Qué tipo de máquina virtual soporta virtualBox?
+	VirtuaBox es una maquina virtual de sistema
+
+¿Qué función cumple el hypervisor en la virtualización?
+	Asignar recursos del Host a la VM
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+	Si se rompe una maquina virtual no afecta el resto de las maquinas ya que son independientes entre ellas.
+
