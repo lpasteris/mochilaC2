@@ -1,0 +1,24 @@
+
+
+  ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos    
+sistemas operativos y en otros no? 
+
+   Esto se debe a que cada empresa (MS, Apple, Google) tiene una API (un conju>
+ Además, es mas fácil para la respectiva empresa que todos los programas estén
+ hechos en un lenguaje específico, y así poder documentarlos mejor y otras cos>
+
+  ¿Qué tipo de máquina virtual es virtualBox?
+
+ Virtual box en si es un software de virtualización para arquitecturas x86/amd>
+ Actualmente es desarrollado por Oracle Corporation como parte de su familia de
+ productos de virtualización. Por medio de esta aplicación es posible instalar
+ sistemas operativos adicionales, conocidos como «sistemas invitados», dentro
+ de otro sistema operativo «anfitrión», cada uno con su propio ambiente virtua>
+
+
+  Si tengo más de una máquina virtual instalada, y una se rompe ¿ esto afecta >
+
+   No afectaría ya que cada máquina virtual es independiente una de otra, son >
+
+
+
