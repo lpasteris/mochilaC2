@@ -1,0 +1,20 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?
+
+El lenguaje de programación es una forma de comunicarnos con una computadora, tablet o celular, e indicarle qué queremos hacer. 
+Existen distintos tipos de lenguaje: máquina, ensamblador, bajo nivel, de alto nivel. La diferencia se encuentra en lo cerca o lejos que estemos del hardware de nuestro equipo.
+Para que estos se comuniquen necesitamos compiladores y ensambladores, 
+Los compiladores o intérpretes, traducen programas escritos en lenguajes de alto nivel a código de máquina que una computadora entiende. 
+Los ensambladores traducen programas escritos en lenguaje ensamblador o de bajo nivel a código de máquina.
+Por otro lado, un sistema operativo (SO) es el conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software. Estos pueden estar escritos en distintos lenguajes por lo que puede hacerse imposible la comunicación, como que un chino o un ruso nos hable sin saber el idioma. Sin embargo, todos los lenguajes de programación pueden usarse en un sistema operativo siempre y cuando haya un intérprete o compilador según corresponda.
+
+
+¿Qué tipo de máquina virtual es virtualBox?.
+
+Oracle VM VirtualBox (conocido generalmente como VirtualBox) es un software de virtualización de sistemas para arquitecturas x86/amd64. Actualmente es desarrollado por Oracle Corporation como parte de su familia de productos de virtualización. Por medio de esta aplicación es posible instalar sistemas operativos adicionales, conocidos como «sistemas invitados», dentro de otro sistema operativo «anfitrión», cada uno con su propio ambiente virtual.
+
+VirtualBox brinda un sistema completo, una máquina a de sistemas, así que funciona como un sistema de hardware. Cada máquina virtual de sistema puede ejecutar su propio SO y múltiples aplicaciones en él. Este tipo de sistema requiere el uso de un hipervisor para acceder a los recursos de hardware de la máquina host.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+Una máquina virtual es un software que crea una capa independiente donde se emula el funcionamiento de un ordenador real con todos los componentes de hardware que necesita para funcionar (disco duro, memoria RAM, tarjetas de red, tarjeta gráfica, etc.) y que puede ejecutar cualquier sistema operativo o programa, tal y como lo haría un ordenador real. Toda esta emulación se encapsula en una serie de archivos que actúan como contendor desde el que se ejecuta la máquina virtual en una ventana de tu ordenador como si de un programa más se tratara y sin que nada de lo que suceda en el interior de esa ventana afecte al ordenador que la ejecuta. Por lo tanto, no las afecta, porque son independientes.
