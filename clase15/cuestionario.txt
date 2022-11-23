@@ -1,0 +1,15 @@
+1. Por que un lenguaje de programacion solo puede utilizarse en algunos sitemas operastivos y en otros no?
+R: De que se puede programar cualquier tipo de lenguaje de programacion se
+ puede. Sin embargo pueden existir problemas al momento de de compilar y 
+ejecucion del codigo creado. Porque un lenguaje de programacion compila a
+ lenguaje esamblador, el cual es ejecutado por el sistema operativo, este
+lenguaje esamblador depende de la arquitectura del procesador y la 
+interepretacion del sistema operativo. 
+
+2. Que tipo de maquina virtual es virtual box?
+Es una maquina virtual de sistemas, ya que puede replicar un sistema operativo completo.
+
+3. Si tengo mas de una maquina virtual instalada y una se rompe, esto afecta a las demas? por que?
+No, ya que todas corren por separado gracias al proceso de virtualizacion, no 
+inflyen o afectan entres si. 
+  
