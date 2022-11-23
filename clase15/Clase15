@@ -1,0 +1,12 @@
+Por que un lenguaje de programacion solo puede utilizarse en algunos sistemas operativos y otros no?
+R: Por que al compilar el codigo depende de la arquitectura del procesador y la interpretacion del SO.
+   Si cambia la arquitectura del equipo el lenguaje sera distinto y no lo podra ejecutar.
+
+Que tipo de maquina virtual es virtualBox?
+R: Es una Maquina Virtual de proceso
+
+Si tengo mas de una maquina virtual instalada, yy una se rompe, esto afecta a las demas? por que?
+R: No afecta a las demas, por que cada una es independiente de la otra, tiene su propio espacio dentro del host, por lo que se una se rompe no afecta en nada el funcionamiento del host
+   ni las otras VM.
+
+
