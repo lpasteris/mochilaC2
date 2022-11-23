@@ -1,0 +1,8 @@
+1. ¿Por qué un leguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+Cuando compilamos un lenguaje de programación a un codigo que la máquina entienda, y se crea este archivo ejecutable, este se crea sobre el hardware en una computadora con una arquitectura y sistema operativo específico. Si yo quiero utilizar este archivo ejecutable en otro computador, este debiese tener una arquitectura y caracteristicas similar, sino, este archivo no funciona.  
+
+2. ¿Que tipo de maquina virtual es virtualBox?
+Corresponde  a una maquina virtual de sistemas, ya que esta emula una computadora completa. 
+
+3. Si tengo más de una máquina virtual instalada, y una se rompe, ¿Esto afecta a las demás? ¿Por qué?
+SI una máquina virtual se rompe, no afecta ni al sistempa operativo base , ni  a las otras máquinas virtuales si hubiese otras, ya que cada máquina virtual actua de forma independiente una de otra. 
