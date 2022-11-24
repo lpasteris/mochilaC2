@@ -1,0 +1,36 @@
+1.̉Por qué en lenguaje de programación solo puede utilizarse en algunos sistemas operativos y en otros no?
+
+Por que un lenguaje de programación compila a lenguaje ensamblador el cual es ejecutado por el sistema operativo y 
+este depende de 2 cosas, de la arquitectura del procesador y la interpretación que le da el sistema operativo. Si el 
+pc cambia de hardaware (cambia el oprcesador), el lenguaje no va a correr
+
+2.Qué tipo de máquina virtual es virtualBox?
+
+VirtualBox emula el funcionamiento de un computador, con todos los componentes de hardware que este incluye, se puede 
+virtualizar sistemas operativos FreeBSD, GNU/Linux, OpenBSD, OS/2 Warp, Windows, Solaris, MS-DOS, GEnode y mas.
+
+3.Que funcion cumple el hypervisor en la virtualización?
+
+Cuando el sistema de hardware fisico se usa como hipervisor, se demnomina ¨HOST¨, y las multiples maquinas virtuales 
+que utilizan sus recursos se denominan ¨GUESTS¨. El hypervisor utiliza los recursos como la CPU, la memoria y el 
+almacenamiento, como un conjunto de medios que pueden distribuirse facilmente entre los guest actuales o en las 
+maquinas virtuales nuevas
+
+4.Si tengo más de una máquina virtual instalada, y una se rompe, esto afecta a las demás? por qué?
+
+Cuando el sistema de hardware físico se usa como hipervisor, se denomina "host", y las múltiples máquinas virtuales 
+que utilizan sus recursos se denominan "guests". El hipervisor utiliza los recursos, como la CPU, la memoria y el 
+almacenamiento, como un conjunto de medios que pueden redistribuirse fácilmente entre los guests actuales o en las 
+máquinas virtuales nuevas.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué? Cada máquina 
+virtual queda aislada de las demás máquinas virtuales que se ejecutan en el mismo hardware. Aunque las máquinas 
+virtuales comparten recursos físicos, como CPU, memoria y dispositivos de E/S, el sistema operativo invitado de una 
+máquina virtual individual solo podrá detectar los dispositivos virtuales para los que tiene disponibilidad. El 
+VMkernel sirve de mediador con todos los recursos físicos. Todo el acceso del hardware físico se produce a través del 
+VMkernel, y las máquinas virtuales no pueden evadir ese nivel de aislamiento. Así como las máquinas físicas se 
+comunican entre sí en una red a través de una tarjeta de red, las máquinas virtuales se comunican entre sí cuando se 
+ejecutan en el mismo host, a través de un conmutador virtual. Además, una máquina virtual se comunica con la red 
+física, incluidas las máquinas virtuales de otros hosts ESXi, a través de un adaptador de red física.
+
+
