@@ -1,0 +1,41 @@
+﻿Introducción a la Informática
+
+
+Ejercitación 
+Previo a la ejercitación propuesta para el día de hoy deberán instalar la interfaz gráfica sobre el Sistema operativo ubuntu instalado en la virtualBox. Para ello tendrán que seguir las siguientes instrucciones link
+En las mesas de trabajo de forma individual deberán realizar la siguiente ejercitación: 
+Procederemos a instalar Git a través de la consola de comandos.
+Como primer paso deben verificar que tengan conexión a Internet, para esto utilizaremos el comando ping -c 2 www.digitalhouse.com.ar  (Utilizar la terminal Konsole)
+  
+
+
+
+
+
+
+
+¡IMPORTANTE! Si existiera algún tipo de problema, revisar que el tipo de conexión de la MV esté en modo nat.
+Si no ingresamos con el usuario root, podemos cambiarnos al mismo utilizando el comando su root, a continuación, debemos introducir la contraseña establecida. 
+  
+
+1. Actualizar el sistema con sudo apt update y sudo apt upgrade
+2.   Investigar con qué comando se puede descargar el navegador Mozilla Firefox y ejecutarlo. Una vez instalado deberán abrir en la pestaña del navegador https://github.com/  abrir sus respectivas cuentas en sus navegadores y clonar la mochila en sus máquinas virtuales. 
+3. Para clonar el repositorio tener en cuenta lo explicado en el siguiente documento. Link 
+4. Una vez clonado el repositorio, deberán trabajar en sus respectivas ramas. Realizarán la siguiente ejercitación:
+En formato TXT,  resolver el siguiente cuestionario:                                
+Con toda la mesa de trabajo debatan sobre las siguientes preguntas y contesten en conjunto: 
+   * ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?. 
+La razón es que el lenguaje de programación compila al lenguaje ensamblador y ese lenguaje depende de la arquitectura del procesador y del sistema operativo en particular.
+   * ¿Qué tipo de máquina virtual soporta virtualBox?
+Entre los sistemas operativos soportados (en modo anfitrión) se encuentran GNU/Linux, Mac OS X, OS/2 Warp, Genode,​ Windows y Solaris/OpenSolaris, y dentro de ellos es posible virtualizar los sistemas operativos FreeBSD GNU/LINUX, OPENBSD,OS/2 WARP, WINDOWS, SOLARIS, MS-DOS, GENODE.
+   * ¿Qué función cumple el hypervisor en la virtualización?
+Un hipervisor, conocido también como monitor de máquinas virtuales, es un proceso que crea y ejecuta máquinas virtuales. Un hipervisor permite que un ordenador host preste soporte a varias máquinas virtuales invitadas mediante el uso compartido virtual de sus recursos, como la memoria y el procesamiento.
+   * Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+No, no afecta a las demás y esto es porque está siendo independiente de las demás, por esto mismo las máquinas virtuales se utilizan mucho para probar y tirar errores sin que afecten al ordenador mismo o a las demás máquinas virtuales.
+   * Subir este archivo a la mochila del viajero desde la máquina virtual es opcional.
+        
+
+
+
+
+3
