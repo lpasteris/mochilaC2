@@ -1,0 +1,41 @@
+Para instalar mozilla firefox:
+
+sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa -y
+sudo apt update
+sudo apt upgrade
+sudo apt install firefox
+
+
+Para instalar GIT
+
+sudo apt-get update
+sudo apt-get install git
+
+
+Link repositorio:
+
+https://github.com/lpasteris/mochilaC2.git
+
+- Por que un lenguaje de programacion solo puede utilizarse en algunos sistemas operativos
+y en otros no?
+
+Todo depende del compilador o del interprete segun corresponda, el cual determina
+el codigo maquina que genera y esta adaptado a un sistema operativo y arquitectura
+del procesador. Si el compilador o interprete solo estan adaptados a windows, el 
+lenguaje de programacion no se podria usar en linux por ejemplo. 
+Swift en mac os, Visual C para windows. 
+
+- QUe tipo de maquina virtual soporte virtualbox?
+
+SOporte maquinas virtuales de sistemas, se  instala un sistema operativo completo
+virtualizando hardware.
+
+- Si tengo una maquina virtual instalad, y una se rompe, esto afecta a las demas? por que?
+
+SI una se rompe, no afectaria a las demas ya que cada maquina virtual es un sistema 
+aislado tanto del sistema anfitrion como una de otra.
+
+
+
+
+
