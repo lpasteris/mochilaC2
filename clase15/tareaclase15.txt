@@ -1,8 +1,9 @@
 preguntas
+1. Por que un lenguaje de programacion solo puede utilizarse en algunos sitemas operastivos y en otros no?
+R:\  
 
-<<<<<<< Updated upstream
-modificación en github
-=======
-modificación en gihub hoy
->>>>>>> Stashed changes
+2. Que tipo de maquina virtual es virtual box?
+R:\
 
+3. Si tengo mas de una maquina virtual instalada y una se rompe, esto afecta a las demas? por que?
+R:\
