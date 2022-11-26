@@ -1,9 +1,8 @@
-preguntas
 1. Por que un lenguaje de programacion solo puede utilizarse en algunos sitemas operastivos y en otros no?
-R:\  
+R: Es posible  programar en cualquier tipo de lenguaje de programacion. Sin embargo pueden existir problemas al momento de de compilar y ejecucion del codigo creado. Porque un lenguaje de programacion compila traduciendo el código a lenguaje de bajo nivel que tiene directa relación con la arquitectura del procesador y la máquina en general
 
 2. Que tipo de maquina virtual es virtual box?
-R:\
+Virtual Box es un hipervisor. Es un software de virtualización multiplataforma de código abierto que  permite a los desarrolladores entregar código más rápido, ya que pueden ejecutar múltiples sistemas operativos en un solo dispositivo.
 
 3. Si tengo mas de una maquina virtual instalada y una se rompe, esto afecta a las demas? por que?
-R:\
+No, ya que todas corren por separado gracias al proceso de virtualizacion, no inflyen o afectan entres si. 
