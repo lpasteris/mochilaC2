@@ -1,0 +1,185 @@
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/CAMADA 2 (main)
+$ cd .. 
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer
+$ cd INTRO
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO
+$ ls
+10A_Kahoot.pdf  comandosGitBask.pdf  Ejercitaciones/  mochilaC2/  padlet-2nwlb1hfqxk5v96c.png  ramas.png
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO
+$ cd mochilaC2
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2 (Katherinne_Henriquez)
+$ ls
+clase12/  clase15/  clase18/  clase3/  clase6/  clase9/
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2 (Katherinne_Henriquez)
+$ cd clase3
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3 (Katherinne_Henriquez)
+$ mkdir DH
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3 (Katherinne_Henriquez)
+$ cd DH
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH (Katherinne_Henriquez)
+$ mkdir Películas
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH (Katherinne_Henriquez)
+$ cd Películas
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ mkdir Infantiles
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Infantiles (Katherinne_Henriquez)
+$ touch Intenzamente.txt El juego del miedo.xls Rapido y furioso.pdf Titanic.jpg
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Infantiles (Katherinne_Henriquez)
+$ ls
+del  El  furioso.pdf  Intenzamente.txt  juego  miedo.xls  Rapido  Titanic.jpg  y
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Infantiles (Katherinne_Henriquez)
+$ rm del  El  furioso.pdf  Intenzamente.txt  juego  miedo.xls  Rapido  Titanic.jpg  y
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Infantiles (Katherinne_Henriquez)
+$ ls
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Infantiles (Katherinne_Henriquez)
+$ touch Intenzamente.txt El_juego_del_miedo.xls Rapido_y_furioso.pdf Titanic.jpg
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Infantiles (Katherinne_Henriquez)
+$ ls
+El_juego_del_miedo.xls  Intenzamente.txt  Rapido_y_furioso.pdf  Titanic.jpg
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Infantiles (Katherinne_Henriquez)
+$ rm El_juego_del_miedo.xls  Intenzamente.txt  Rapido_y_furioso.pdf  Titanic.jpg
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Infantiles (Katherinne_Henriquez)
+$ touch "Intenzamente.txt" "El juego del miedo.xls" "Rapido y furioso.pdf" "Titanic.jpg"
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Infantiles (Katherinne_Henriquez)
+$ ls
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Infantiles (Katherinne_Henriquez)
+$ cd ..
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ cd Accion
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Accion (Katherinne_Henriquez)
+$ touch "Smooth criminal.txt" Diario de una pasion.js
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Accion (Katherinne_Henriquez)
+$ El hexorcista.xls
+bash: El: command not found
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Accion (Katherinne_Henriquez)
+$ Cars.jpg
+bash: Cars.jpg: command not found
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Accion (Katherinne_Henriquez)
+$ touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" "Cars.jpg"
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Accion (Katherinne_Henriquez)
+$ ls
+ Cars.jpg   de   Diario  'Diario de una pasion.js'  'El hexorcista.xls'   pasion.js  'Smooth criminal.txt'   una
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Accion (Katherinne_Henriquez)
+$ rm "de" "diario" "pasion" "una"
+rm: cannot remove 'pasion': No such file or directory
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Accion (Katherinne_Henriquez)
+$ rm pasion.js
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Accion (Katherinne_Henriquez)
+$ ls
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Accion (Katherinne_Henriquez)
+$ cd ..
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ ls
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ cd Terror
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Terror (Katherinne_Henriquez)
+$ touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "We will rock you.js"
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Terror (Katherinne_Henriquez)
+$ ls
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'We will rock you.js'  'Yo antes de ti.xls'
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Terror (Katherinne_Henriquez)
+$ cd ..
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ rmdir Romanticas
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ ls
+Accion/  Comedia/  Infantiles/  Terror/
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ mkdir Romantica
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ cd Romantica
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Romantica (Katherinne_Henriquez)
+$ cd ..
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ cd Comedia
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Comedia (Katherinne_Henriquez)
+$ touch "Madagaskar.js" "Orgullo y prejuicio.txt" "IT.xls" "Mision imposible.png"
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Comedia (Katherinne_Henriquez)
+$ ls
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Comedia (Katherinne_Henriquez)
+$ cd ..
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ cd Romantica
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Romantica (Katherinne_Henriquez)
+$ touch "Pocahontas.jpg" "Annabelle.js" "Los vengadores.js" "La mascara.js"
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Romantica (Katherinne_Henriquez)
+$ ls
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas/Romantica (Katherinne_Henriquez)
+$ cd ..
+
+freak@DESKTOP-1F0V816 MINGW64 ~/OneDrive/Desktop/Curso Certified Developer/INTRO/mochilaC2/clase3/DH/Películas (Katherinne_Henriquez)
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romantica/  Terror/
+
+./Accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+./Comedia:
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+./Romantica:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'We will rock you.js'  'Yo antes de ti.xls'
+
+
+
+
