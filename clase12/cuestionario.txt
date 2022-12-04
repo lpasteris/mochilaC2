@@ -1,0 +1,22 @@
+//Que es un usuario Root?
+R: Es el usuario con mayor permiso en el equipo, de igual manera como lo es el administrador en Windows lo es el root en linux.
+
+
+//Por que ubuntu no me deja establecer contrase;a durante la instalacion?
+R: Por que usa SUDO, que es un mecanismo que permite que los usuarios que dispongan de la contrase;a root puedan utilizar comandos como root con el comando sudo
+
+//Cuales son los procesos tipicos de Linux (Demonios)?
+R:Son programas o servicios que se ejecutan en segundo plano, fuera del alcance de los usuarios debido a que no poseen interfaz.
+Los activos en mi maquina virtual son:
+-dbus
+-cron
+-haveged
+-kmod
+-lightdm
+-networking
+-plymouth-log
+-procps
+-udev
+-virtualbox-guest-utils
+
+pueden ser identificados mediante el comando "servie --status-all"
