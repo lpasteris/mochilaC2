@@ -1,0 +1,23 @@
+1 - ¿Porqué un lenguaje de programación solo puede ocuparse en algunos
+     sistemas operativos y en otros no?
+    
+     R: Todos los lenguajes de programación sirven en nuestro SO, siempre
+       que haya un interprete o compilador, ya que este se adecua a 
+       nuestro procesador.
+
+2 - ¿Que tipo de maquina virtual soporta virtualbox?
+    
+     R: Virtualbox soporta maquinas virtuales de sistemas opertaivos
+
+3 - ¿Qué función cumple el hypervisor en la virtualización?
+    
+    R: El hypervisor nos deja instalar diferentes maquinas virtuales
+       con diferentes sistemas operativos y ejecutarlos sin necesidad
+       de tocar nuestro SO. Base
+
+4 - Si tengo más de una maquina virtual instalada y una se rompe, ¿Esta
+    afecta a las demás? ¿Por qué?
+
+    R: Si una maquina virtual se nos rompe, esta no afectaria a las demas,
+       ya que gracias al hypervisor, todos los SO que tengamos como maquina 
+      virtual son independientes.
