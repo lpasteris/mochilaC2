@@ -1,0 +1,7 @@
+¿Por que un lenguaje de programacion solo puede utilizarse en algunos sistemas operativos y otros no?
+Como tal, el lenguaje de programacion puede utilizarse en cualquier sistema opertivo, sin embargo se debe tener en cuenta al cambiarlo ya que puede tener problemas al decodificarse y compilarse. 
+¿Que tipo de maquina virtual es Virtual Box?
+Es una maquina virtual de sistemas, puesto que permite replicar un sistema operativo completo.
+Si tengo mas de una maquina virtual instalada y una se rompe, ¿esto afecta a las demas? ¿por que?
+No, ya que todas corren por separado gracias al proceso de virtualizacion. No influyen entre si.
+
